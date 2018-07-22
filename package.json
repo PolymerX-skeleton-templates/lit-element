@@ -1,0 +1,56 @@
+{
+  "name": "polymer-skeleton",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "polymerx build",
+    "dev": "polymerx watch",
+    "pretest": "yarn build",
+    "test": "yarn lint && wct && yarn test:lighthouse",
+    "test:lighthouse": "concurrently --kill-others \"http-server dist\" \"lighthouse --view http://localhost:8080\" ",
+    "test:travis": "yarn pretest && yarn lint && wct --npm",
+    "clean:lighthouse": "rm *.report.html",
+    "lint": "xo && stylelint src/components/**/*.pcss",
+    "release": "standard-version"
+  },
+  "engines": {
+    "node": ">= 8.0 < 10"
+  },
+  "xo": {
+    "space": true,
+    "envs": [
+      "browser"
+    ],
+    "rules": {
+      "eol-last": 0,
+      "import/no-unassigned-import": 0,
+      "promise/prefer-await-to-then": 0
+    }
+  },
+  "devDependencies": {
+    "autoprefixer": "9.0.1",
+    "concurrently": "3.6.0",
+    "cssnano": "4.0.3",
+    "http-server": "0.11.1",
+    "lighthouse": "3.0.3",
+    "polymerx-cli": "0.3.1",
+    "postcss-cssnext": "3.1.0",
+    "postcss-custom-media": "6.0.0",
+    "postcss-discard-comments": "4.0.0",
+    "postcss-easy-import": "3.0.0",
+    "postcss-mixins": "6.2.0",
+    "postcss-nesting": "6.0.0",
+    "postcss-reporter": "5.0.0",
+    "postcss-selector-not": "3.0.1",
+    "standard-version": "4.4.0",
+    "stylelint": "9.3.0",
+    "stylelint-config-standard": "18.2.0",
+    "wct-browser-legacy": "1.0.1",
+    "web-component-tester": "6.7.1",
+    "xo": "0.21.1"
+  },
+  "dependencies": {
+    "@polymer/lit-element": "0.5.2",
+    "@webcomponents/webcomponentsjs": "2.0.3"
+  }
+}
