@@ -6,7 +6,7 @@
 Install using the CLI
 
 ```bash
-$ polymerx create lit-elemnt dest-folder
+$ polymerx create lit-element dest-folder
 ```
 
 <img src="https://i.imgur.com/wWjqhW6.jpg" width="530">
