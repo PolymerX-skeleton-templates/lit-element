@@ -1,10 +1,12 @@
 
 # Template for [PolymerX CLI](https://github.com/PolymerX/polymerx-cli)
 
+> Using LitElement instead of PolymerElement
+
 Install using the CLI
 
 ```bash
-$ polymerx create default dest-folder
+$ polymerx create lit-elemnt dest-folder
 ```
 
 <img src="https://i.imgur.com/wWjqhW6.jpg" width="530">
