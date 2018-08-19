@@ -28,9 +28,9 @@
     }
   },
   "devDependencies": {
-    "autoprefixer": "9.0.1",
-    "concurrently": "3.6.0",
-    "cssnano": "4.0.3",
+    "autoprefixer": "9.1.1",
+    "concurrently": "3.6.1",
+    "cssnano": "4.0.5",
     "http-server": "0.11.1",
     "lighthouse": "3.0.3",
     "polymerx-cli": "0.3.2",
@@ -43,14 +43,14 @@
     "postcss-reporter": "5.0.0",
     "postcss-selector-not": "3.0.1",
     "standard-version": "4.4.0",
-    "stylelint": "9.3.0",
+    "stylelint": "9.5.0",
     "stylelint-config-standard": "18.2.0",
     "wct-browser-legacy": "1.0.1",
-    "web-component-tester": "6.7.1",
-    "xo": "0.21.1"
+    "web-component-tester": "6.8.0",
+    "xo": "0.22.0"
   },
   "dependencies": {
     "@polymer/lit-element": "0.5.2",
-    "@webcomponents/webcomponentsjs": "2.0.3"
+    "@webcomponents/webcomponentsjs": "2.0.4"
   }
 }
