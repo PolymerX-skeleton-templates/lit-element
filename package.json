@@ -51,6 +51,6 @@
   },
   "dependencies": {
     "@polymer/lit-element": "0.5.2",
-    "@webcomponents/webcomponentsjs": "2.1.2"
+    "@webcomponents/webcomponentsjs": "2.1.3"
   }
 }
