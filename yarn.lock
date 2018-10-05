@@ -631,11 +631,11 @@
   version "1.0.2"
   resolved "https://registry.npmjs.org/@polymer/esm-amd-loader/-/esm-amd-loader-1.0.2.tgz#6a6c26bd3293ce8c02765752e5581f2a4ea7e038"
 
-"@polymer/lit-element@0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@polymer/lit-element/-/lit-element-0.6.1.tgz#56772f8fb0c6d3d73a20a6d17f3bc82ec648664b"
+"@polymer/lit-element@0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@polymer/lit-element/-/lit-element-0.6.2.tgz#589f2fa19e84d23c1debb2c329cbab758ae30581"
   dependencies:
-    lit-html "^0.11.4"
+    lit-html "^0.12.0"
 
 "@polymer/polymer@^3.0.0":
   version "3.0.5"
@@ -6677,9 +6677,9 @@ line-column-path@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/line-column-path/-/line-column-path-1.0.0.tgz#383b83fca8488faa7a59940ebf28b82058c16c55"
 
-lit-html@^0.11.4:
-  version "0.11.4"
-  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-0.11.4.tgz#fa397d2b2f2d0523ebc136e5a1699aa4e9346152"
+lit-html@^0.12.0:
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-0.12.0.tgz#d994420fda74744f9d4a79401b086de929643e6a"
 
 load-json-file@^1.0.0:
   version "1.1.0"
