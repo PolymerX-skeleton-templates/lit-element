@@ -50,7 +50,7 @@
     "xo": "0.22.0"
   },
   "dependencies": {
-    "@polymer/lit-element": "0.6.1",
+    "@polymer/lit-element": "0.6.2",
     "@webcomponents/webcomponentsjs": "2.1.3"
   }
 }
