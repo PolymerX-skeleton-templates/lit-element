@@ -719,12 +719,12 @@
   version "1.0.2"
   resolved "https://registry.npmjs.org/@polymer/esm-amd-loader/-/esm-amd-loader-1.0.2.tgz#6a6c26bd3293ce8c02765752e5581f2a4ea7e038"
 
-"@polymer/lit-element@0.6.4":
-  version "0.6.4"
-  resolved "https://registry.yarnpkg.com/@polymer/lit-element/-/lit-element-0.6.4.tgz#84806454a7f5e5280947d6ec84b613e09aa3d466"
-  integrity sha512-5EsrZJebIE1plULhMtC21zpryzJNFxM63/XY7G2BvzX/zd2rSPuNsqXiBK2x76TniLDaxuD4Tj6eb3WgR1OoCg==
+"@polymer/lit-element@0.6.5":
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/@polymer/lit-element/-/lit-element-0.6.5.tgz#c614b9638a0809883ba52bf43fca5b6ed51b7aa8"
+  integrity sha512-KVjuU/5Ugp6PFob6YEe1/B4GCKjqhEy9Tj954shL6d3DohT2sNAmbX9QfbXvcZ8RhbVELK6dzbN3i2BRA3mOKg==
   dependencies:
-    lit-html "^0.14.0"
+    lit-html "^1.0.0-rc.1"
 
 "@polymer/polymer@^3.0.0":
   version "3.0.5"
@@ -6317,10 +6317,10 @@ line-column-path@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/line-column-path/-/line-column-path-1.0.0.tgz#383b83fca8488faa7a59940ebf28b82058c16c55"
 
-lit-html@^0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-0.14.0.tgz#d6830e8f55fb923b0f5824decf7da082a1d22997"
-  integrity sha512-+xqUPzzJGEDqb0F5DOnMXvL0jxpkKebAMlXycKZxFtzlmD+qePEmYrEUPF9XVXcc5eYBzYXTCOUcjSCod4YvgQ==
+lit-html@^1.0.0-rc.1:
+  version "1.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-1.0.0-rc.1.tgz#a83d45ed86fc7c5d4612f3092e83fd095baf1fc3"
+  integrity sha512-Qyu+lHpRtJS3Addw56rK68KgZ5cdxTfRDmYNwd8gRQBImdhkE0uyqIT5usLE9YDezFeYVqgAc2WujOOi8taF1A==
 
 load-json-file@^1.0.0:
   version "1.1.0"
