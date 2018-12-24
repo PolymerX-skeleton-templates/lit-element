@@ -13,9 +13,6 @@
     "lint": "xo && stylelint src/components/**/*.pcss",
     "release": "standard-version"
   },
-  "engines": {
-    "node": ">= 8.0 < 10"
-  },
   "xo": {
     "space": true,
     "envs": [
