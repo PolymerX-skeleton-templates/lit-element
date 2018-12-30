@@ -37,7 +37,7 @@
     "postcss-easy-import": "3.0.0",
     "postcss-mixins": "6.2.1",
     "postcss-nesting": "7.0.0",
-    "postcss-reporter": "6.0.0",
+    "postcss-reporter": "6.0.1",
     "postcss-selector-not": "4.0.0",
     "standard-version": "4.4.0",
     "stylelint": "9.9.0",
