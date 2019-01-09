@@ -1502,9 +1502,10 @@
   version "1.5.0"
   resolved "https://registry.npmjs.org/@webcomponents/shadycss/-/shadycss-1.5.0.tgz#109e596027eed04bc5032414c9f094e1aeb9260e"
 
-"@webcomponents/webcomponentsjs@2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@webcomponents/webcomponentsjs/-/webcomponentsjs-2.2.1.tgz#bf28cdad466aaf85d88ee56aebed32c83f4c1328"
+"@webcomponents/webcomponentsjs@2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@webcomponents/webcomponentsjs/-/webcomponentsjs-2.2.2.tgz#48ad750ea3d96266322cc462f30f46a822c20303"
+  integrity sha512-t45WI6m/dD+gmMaQ/u0k1gCrSg5yESnfGaxfFPV1GST2RL/aEScoaotFsfjfP8DPcq2OH6leyHoWBT+pSuGsdQ==
 
 "@webcomponents/webcomponentsjs@^1.0.7":
   version "1.2.5"
