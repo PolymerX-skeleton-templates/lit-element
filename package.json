@@ -47,7 +47,7 @@
     "xo": "0.23.0"
   },
   "dependencies": {
-    "@polymer/lit-element": "0.6.5",
+    "@polymer/lit-element": "0.7.1",
     "@webcomponents/webcomponentsjs": "2.2.3"
   }
 }
