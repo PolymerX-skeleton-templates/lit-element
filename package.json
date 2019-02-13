@@ -27,7 +27,7 @@
   "devDependencies": {
     "autoprefixer": "9.4.5",
     "concurrently": "4.1.0",
-    "cssnano": "4.1.8",
+    "cssnano": "4.1.9",
     "http-server": "0.11.1",
     "lighthouse": "4.0.0",
     "polymerx-cli": "0.4.2",
