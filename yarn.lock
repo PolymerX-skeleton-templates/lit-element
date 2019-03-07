@@ -3809,9 +3809,10 @@ cssom@0.3.x:
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/cssom/-/cssom-0.3.4.tgz#8cd52e8a3acfd68d3aed38ee0a640177d2f9d797"
 
-cssstyle@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/cssstyle/-/cssstyle-1.1.1.tgz#18b038a9c44d65f7a8e428a653b9f6fe42faf5fb"
+cssstyle@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/cssstyle/-/cssstyle-1.2.1.tgz#3aceb2759eaf514ac1a21628d723d6043a819495"
+  integrity sha512-7DYm8qe+gPx/h77QlCyFmX80+fGaE/6A/Ekl0zaszYOubvySO2saYFdQ78P29D0UsULxFKCetDGNaNRUdSF+2A==
   dependencies:
     cssom "0.3.x"
 
@@ -6860,15 +6861,15 @@ lighthouse-logger@^1.2.0:
     debug "^2.6.8"
     marky "^1.2.0"
 
-lighthouse@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/lighthouse/-/lighthouse-4.0.0.tgz#366a023187d5d6a1286840af73d9146980ca4747"
-  integrity sha512-YBV3jao7ZjzrS7lv0RM+Py03wcqOmWJYENemPOePvx57dLQSVdETapv0ibKX/S4ycTIugRhV9bKNZrgh7pFNnA==
+lighthouse@4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/lighthouse/-/lighthouse-4.2.0.tgz#5f265db17e0105a93affac1f3cc8f4021e0743a0"
+  integrity sha512-jIqyUOxmMjBDEzrFSEep9J6+rXt7COnCOupqzz94ieg71IlY8jK2gmIqCWQ7Jvfpc4I6PlN5fI5yLokx9KDmZA==
   dependencies:
     axe-core "3.1.2"
     chrome-launcher "^0.10.5"
     configstore "^3.1.1"
-    cssstyle "1.1.1"
+    cssstyle "1.2.1"
     details-element-polyfill "2.2.0"
     esprima "^4.0.1"
     http-link-header "^0.8.0"
@@ -6889,7 +6890,7 @@ lighthouse@4.0.0:
     robots-parser "^2.0.1"
     semver "^5.3.0"
     speedline-core "1.4.2"
-    update-notifier "^2.1.0"
+    update-notifier "^2.5.0"
     ws "3.3.2"
     yargs "3.32.0"
     yargs-parser "7.0.0"
@@ -8850,8 +8851,7 @@ postcss-custom-selectors@^4.0.1:
     postcss "^6.0.1"
     postcss-selector-matches "^3.0.0"
 
-
-postcss-discard-comments@^4.0.2:
+postcss-discard-comments@4.0.2, postcss-discard-comments@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/postcss-discard-comments/-/postcss-discard-comments-4.0.2.tgz#1fbabd2c246bff6aaad7997b2b0918f4d7af4033"
   integrity sha512-RJutN259iuRf3IW7GZyLM5Sw4GLTOH8FmsXBnv8Ab/Tc2k4SR4qbV4DNbyyY4+Sjo362SyDmW2DQ7lBSChrpkg==
@@ -11653,9 +11653,10 @@ upath@^1.0.5:
   version "1.1.0"
   resolved "https://registry.npmjs.org/upath/-/upath-1.1.0.tgz#35256597e46a581db4793d0ce47fa9aebfc9fabd"
 
-update-notifier@2.5.0, update-notifier@^2.1.0, update-notifier@^2.2.0, update-notifier@^2.3.0:
+update-notifier@2.5.0, update-notifier@^2.2.0, update-notifier@^2.3.0, update-notifier@^2.5.0:
   version "2.5.0"
-  resolved "https://registry.npmjs.org/update-notifier/-/update-notifier-2.5.0.tgz#d0744593e13f161e406acb1d9408b72cad08aff6"
+  resolved "https://registry.yarnpkg.com/update-notifier/-/update-notifier-2.5.0.tgz#d0744593e13f161e406acb1d9408b72cad08aff6"
+  integrity sha512-gwMdhgJHGuj/+wHJJs9e6PcCszpxR1b236igrOkUofGhqJuG+amlIKwApH1IW1WWl7ovZxsX49lMBWLxSdm5Dw==
   dependencies:
     boxen "^1.2.1"
     chalk "^2.0.1"
