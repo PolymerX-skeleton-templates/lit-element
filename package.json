@@ -48,6 +48,6 @@
   },
   "dependencies": {
     "@polymer/lit-element": "0.7.0",
-    "@webcomponents/webcomponentsjs": "2.2.7"
+    "@webcomponents/webcomponentsjs": "2.3.0"
   }
 }
