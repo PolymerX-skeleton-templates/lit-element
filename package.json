@@ -44,7 +44,7 @@
     "stylelint-config-standard": "18.2.0",
     "wct-browser-legacy": "1.0.2",
     "web-component-tester": "6.9.2",
-    "xo": "0.23.0"
+    "xo": "0.26.1"
   },
   "dependencies": {
     "@polymer/lit-element": "0.7.0",
